@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Raleway, sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+h3 {
+    color: #190033;
+}
+
+h4 {
+    color: #330033;
+}
+
+.contain {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#reg input[class="text"],
+#reg input[class="prmId"],
+#reg input[class="dept"],
+#reg input[class="username"],
+#reg input[class="password"],
+#reg input[class="confirmpass"],
+#reg input[class="email"],
+#reg input[class="tel"],
+#reg input[class="url"],
+#reg textarea,
+#reg button[class="submit"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#reg {
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 150px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#reg h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+#reg h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#reg input[class="text"],
+#reg input[class="prmId"],
+#reg input[class="email"],
+#reg input[class="dept"],
+#reg input[class="username"],
+#reg input[class="password"],
+#reg input[class="confirmpass"],
+#reg input[class="tel"],
+#reg input[class="url"],
+#reg textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#reg input[class="text"]:hover,
+#reg input[class="prmId"]:hover,
+#reg input[class="email"]:hover,
+#reg input[class="dept"]:hover,
+#reg input[class="username"]:hover,
+#reg input[class="password"]:hover,
+#reg input[class="confirmpass"]:hover,
+#reg input[class="tel"]:hover,
+#reg input[class="url"]:hover,
+#reg textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+#reg textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#reg button[class="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #190033;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#reg button[class="submit"]:hover {
+    background: #330033;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#reg button[class="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+    text-align: center;
+}
+
+#reg input:focus,
+#reg textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
+
+ ::-webkit-input-placeholder {
+    color: #888;
+}
+
+ :-moz-placeholder {
+    color: #888;
+}
+
+ ::-moz-placeholder {
+    color: #888;
+}
+
+ :-ms-input-placeholder {
+    color: #888;
+}

@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Raleway, sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+.margin {
+    margin: 10px;
+}
+
+.design {
+    margin-top: 80px;
+}
+
+#reg button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #190033;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#reg button[type="submit"]:hover {
+    background: #330033;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+fieldset {
+    margin: 40px;
+    margin-top: 90px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+legend {
+    color: darkslateblue;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.contain {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#contact input[class="text"],
+#contact input[class="prmID"],
+#contact input[class="email"],
+#contact input[class="tel"],
+#contact input[class="url"],
+#contact textarea,
+#contact button[class="submit"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 150px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+#contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contact input[class="text"],
+#contact input[class="prmID"],
+#contact input[class="email"],
+#contact input[class="tel"],
+#contact input[class="url"],
+#contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#contact input[class="text"]:hover,
+#contact input[class="prmID"]:hover,
+#contact input[class="email"]:hover,
+#contact input[class="tel"]:hover,
+#contact input[class="url"]:hover,
+#contact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+#contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contact button[class="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #190033;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#contact button[class="submit"]:hover {
+    background: #330033;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[class="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+    text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
+
+ ::-webkit-input-placeholder {
+    color: #888;
+}
+
+ :-moz-placeholder {
+    color: #888;
+}
+
+ ::-moz-placeholder {
+    color: #888;
+}
+
+ :-ms-input-placeholder {
+    color: #888;
+}
+
+
+/* .text-danger {
+    color: firebrick;
+} */
+
+
+/* .danger {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: #ffcdd5;
+    padding: 0px 0px;
+    min-width: 300px;
+    position: absolute;
+    border-radius: 4px;
+    border-left: 8px solid #c42828;
+} */

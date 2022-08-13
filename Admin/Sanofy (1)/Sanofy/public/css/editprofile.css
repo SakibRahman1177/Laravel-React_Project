@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Edit {
+    margin: 100px;
+    margin-left: 450px;
+    font-size: 20px;
+}
+
+legend {
+    font-size: 100px;
+    margin-left: 130px;
+    color: indigo;
+}
+
+.pad {
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+span {
+    color: #190033;
+    font-size: 20px;
+}
+
+button {
+    padding: 5px;
+    width: 55%;
+    font-size: 15px;
+    background: #190033;
+    color: aliceblue;
+}
